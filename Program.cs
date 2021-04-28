@@ -50,6 +50,7 @@ namespace Lab4
 
         }
 
+        // Making the Classes Private
         class person
         {
 
@@ -64,6 +65,7 @@ namespace Lab4
             private string phone;
             private string email;
 
+            // Using the get and set method to access the private strings.
             public string Firstname
             {
                 get
@@ -288,6 +290,7 @@ namespace Lab4
 
             NewPerson Temp = new NewPerson();
 
+            // Getting info from the user and Storing it into a variable
             Console.Write("\nPlease enter the first name: ");
             Temp.FirstName = Console.ReadLine();
             Temp.FirstName += " Poopy";
@@ -321,6 +324,7 @@ namespace Lab4
             Console.Write("\nPlease enter the email: ");
             Temp.Email = Console.ReadLine();
 
+            // Pritnting out the info back at user
             Console.WriteLine($"\n First name: {Temp.FirstName}");
             Console.WriteLine($"\n Middle name: {Temp.MiddleName}");
             Console.WriteLine($"\n Last name: {Temp.LastName}");
@@ -337,6 +341,7 @@ namespace Lab4
 
             person temP = new person();
 
+            // Getting info from the user and Storing it into a variable
             Console.Write("\nPlease enter the first name: ");
             temP.Firstname = Console.ReadLine();
             temP.Firstname += " Poopy";
@@ -370,6 +375,7 @@ namespace Lab4
             Console.Write("\nPlease enter the email: ");
             temP.Email = Console.ReadLine();
 
+            // Pritnting out the info back at user
             Console.WriteLine($"\n First name: {temP.Firstname}");
             Console.WriteLine($"\n Middle name: {temP.Middlename}");
             Console.WriteLine($"\n Last name: {temP.Lastname}");
